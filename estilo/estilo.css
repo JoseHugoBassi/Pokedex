@@ -28,7 +28,7 @@
 }
 
 
-html, body{
+body{
     background-color: rgba(255, 0, 0, 0.925);
 }
 picture > img {
@@ -83,7 +83,7 @@ div > img {
     padding-bottom: 5px;
     padding-bottom: 5px;
 }
-.tipo1, .tipo2, .tipofogo{
+.tipo1, .tipo2, .tipofogo,.tipofogo1,.tipoflying,.tipoagua{
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
     
@@ -116,4 +116,33 @@ div > img {
     border-radius: 5px;
     text-align: center;
     
+}
+.tipofogo1{
+    color: white;
+    background-color: red;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: -15px;
+    float: left;
+    text-align: center;
+
+}
+.tipoflying{
+    color: black;
+    background-color: #506266;
+    width: 65px;
+    border-radius: 5px;
+    margin-left: 55px;
+    text-align: center;
+}
+.tipoagua{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(19, 19, 245, 0.89);
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+
 }
