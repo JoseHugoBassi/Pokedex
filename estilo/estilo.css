@@ -15,7 +15,6 @@
       height: 100%;
       display: block;
       justify-content: center;
-      align-items: flex-start;
       gap: 25px !important;
       margin-left: 55px;
     }
